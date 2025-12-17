@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Drug Repurposing Platform – Prototype</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      margin: 40px;
+    }
+    h1 {
+      color: #1f3c88;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    .box {
+      background: #ffffff;
+      border: 1px solid #dcdcdc;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 6px;
+    }
+    button {
+      padding: 10px 18px;
+      background: #1f3c88;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #163172;
+    }
+    input {
+      padding: 8px;
+      width: 60%;
+      margin-top: 10px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>AI Drug Repurposing Platform (Prototype)</h1>
+  <p><b>Purpose:</b> Accelerate identification of drug repurposing opportunities using Agentic AI</p>
+
+  <div class="box">
+    <h2>🔍 Search</h2>
+    <label>Enter Molecule / Indication</label><br>
+    <input type="text" placeholder="e.g., Metformin / Oncology">
+    <br><br>
+    <button>Search</button>
+  </div>
+
+  <div class="box">
+    <h2>📊 Results Dashboard</h2>
+    <ul>
+      <li><b>Indication A</b> — Confidence Score: 92%</li>
+      <li><b>Indication B</b> — Confidence Score: 85%</li>
+      <li><b>Indication C</b> — Confidence Score: 78%</li>
+    </ul>
+    <button>View Evidence</button>
+  </div>
+
+  <div class="box">
+    <h2>📑 Evidence View</h2>
+    <ul>
+      <li>Clinical Trial Evidence</li>
+      <li>Patent Documentation</li>
+      <li>Scientific Journal Publications</li>
+    </ul>
+    <button>Export Report</button>
+  </div>
+</div>
+
+</body>
+</html>
